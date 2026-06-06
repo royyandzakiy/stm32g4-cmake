@@ -11,4 +11,5 @@
 
 ## To Add
 
-- stlink to flash: https://www.youtube.com/watch?v=1cleO3mHjWw&t=555s
+- add stlink to flash: https://www.youtube.com/watch?v=1cleO3mHjWw&t=555s
+- try clang arm
