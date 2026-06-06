@@ -203,6 +203,17 @@ static void MX_GPIO_Init(void) {
 
 /* USER CODE BEGIN 4 */
 
+#ifdef __GNUC__
+/* Retargets printf to the BSP COM channel for GCC */
+int _write(int file, char *ptr, int len) {
+	/* Utilizing the generated COM1 port instance */
+	if (HAL_UART_Transmit(&hcom_uart[COM1], (uint8_t *)ptr, len, HAL_MAX_DELAY) == HAL_OK) {
+		return len;
+	}
+	return -1;
+}
+#endif
+
 /* USER CODE END 4 */
 
 /**
