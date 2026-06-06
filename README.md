@@ -1,3 +1,5 @@
+# STM32 Project Template
+
 ## Added
 
 - created cmake gcc project for nucleo-g474
@@ -9,5 +11,4 @@
 
 ## To Add
 
-- stlink to flash
-- create db
+- stlink to flash: https://www.youtube.com/watch?v=1cleO3mHjWw&t=555s
