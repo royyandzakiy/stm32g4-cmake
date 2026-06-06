@@ -4,8 +4,8 @@
             "name": "STM32G474",
             "intelliSenseMode": "windows-gcc-arm",
             "configurationProvider": "ms-vscode.cmake-tools",
-            "cStandard": "gnu11",
-            "cppStandard": "gnu++20",
+            "cStandard": "c11",
+            "cppStandard": "c++20",
             "includePath": [
                 "${workspaceFolder}/Core/Inc"
             ],
